@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS devlink;
+CREATE DATABASE devlink;
+\connect devlink;
+CREATE EXTENSION POSTGIS;
